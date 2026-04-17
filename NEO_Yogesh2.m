@@ -14,7 +14,7 @@ secPerDay = 86400;                          % [s/day]
 Isp       = 345;                            % [s]
 g0        = 9.80665;                        % [m/s^2]
 ve        = Isp * g0;                       % exhaust velocity [m/s]
-mDryReq   = 1810;                           % delivered mass requirement at NEO [kg]
+mDryReq   = 2,169;                           % delivered mass requirement at NEO [kg]
 
 %% Target NEO selection
 neoFile   = 'All_NEOS_ATA&TD_2018_2019.csv';
